@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&family=Teko:wght@500&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body{
+            height: 100%;
+        }
+
+        header, footer{
+            height: 200px;
+            background-color: blue;
+            color: white;
+        }
+        
+        h1{
+            font-family: 'Lobster';
+            padding: 100px;
+            text-align: center;
+        }
+        
+        section{
+            min-height: 60%;
+            background-color: darkgrey;
+            padding: 10vh;
+        }
+
+        form{
+            padding: 20px;
+        }
