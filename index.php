@@ -39,20 +39,21 @@
                 echo "<h3 class='text-center'>Tu veux changer de thème?</h3>";
                 echo 
                 "<div class='row text-center justify-content-center'>
-                    <form action='modification.php' method='POST' class='form-group my-2 w-25 text-center'>
+                    <form action='modification.php' method='POST' class='form-group my-2text-center'>
                         <select name='newtheme' id='newtheme' class='form-control'>
                             <option value='RED'>Rouge</option>;
                             <option value='BLUE'>Bleu</option>;
                             <option value='PINK'>Rose</option>;
                         </select>
                 <div>
-                    <input type='submit' value='Envoyer' class='form-control w-25 my-2'>
+                    <input type='submit' value='Envoyer' class='form-control my-2'>
                 </div>
                     </form>
                 ";
             }else{
                 ?>
-            <div class="row">
+        <h2>Veuillez choisir un thème</h2>
+        <div class="row">
         <form action="changement.php" method="POST" class='form-group  text-center justify-content-center'>
             <div>
                 <label for="nom">Nom:</label>

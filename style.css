@@ -10,15 +10,16 @@
         }
 
         header, footer{
-            height: 200px;
+            height: 152px;
             background-color: red;
             color: white;
         }
         
         h1{
             font-family: 'Lobster';
-            padding: 100px;
+            margin: 0 auto;
             text-align: center;
+            line-height: 140px;
         }
         
         section{
